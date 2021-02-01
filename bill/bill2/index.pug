@@ -1,0 +1,45 @@
+html
+   head
+      title Order No.: #{id}
+      meta(name="viewport" content="width=device-width, initial-scale=1.0")
+   body(style="margin:0;padding: 0 16px;")
+      div(style="padding: 0.5rem;")
+         h3(style="font-weight: 500;text-align: center;") Order#: #{id}
+         h1(style="text-align:center;font-weight: 500;font-size: 1.875rem;line-height: 2.25rem;") #{restaurant}
+         p(style="text-align: center;")  #{orgAddress} - #{orgPhone}
+         table(style="margin: 0.75rem 0;width: 100%;border-collapse: collapse;")
+            thead
+               tr
+                  th(style="text-align: left;") Items
+                  th(style="text-align: right;") Price
+            tbody(style='border-top: 1px solid #e5e7eb;')
+               each item in items
+                  tr(style="height: 28px;")
+                     td(style="text-align: left;") #{item.title}
+                     td(style="text-align: right;") #{item.price}
+         table(style="margin: 0.75rem 0;width: 100%;border-collapse: collapse;").w-full
+            thead
+               tr
+                  th(style="text-align: left;") Billing
+                  th(style="text-align: right;") Charge
+            tbody(style='border-top: 1px solid #e5e7eb;')
+               tr(style="height: 28px;margin-top: 16px;")
+                  td(style="text-align: left;font-weight: 500;") Item Total
+                  td(style="text-align: right;") #{itemTotal}
+               tr(style="height: 28px;")
+                  td(style="text-align: left;font-weight: 500;") Tax
+                  td(style="text-align: right;") #{tax}
+               tr(style="height: 28px;")
+                  td(style="text-align: left;font-weight: 500;") Delivery
+                  td(style="text-align: right;") #{deliveryPrice}
+               tr(style="height: 28px;")
+                  td(style="text-align: left;font-weight: 500;") Discount
+                  td(style="text-align: right;") -#{discount}
+               tr(style="height: 28px;border-top: 1px solid #e5e7eb;")
+                  td(style="text-align: left;font-weight: 500;") Grand Total
+                  td(style="text-align: right;") #{amountPaid}
+         h3(style="text-align: center;font-weight: 500;") Customer Address:
+         p(style="text-align: center;")  #{customerAddress} #{customerPhone}
+         p(style="text-align:center;") https://riofitmeals.dailykit.org
+         p(style="text-align:center;") We can’t wait to see the best version of you!
+         p(style="text-align:center;") With love, Rio Fit Meals Team
