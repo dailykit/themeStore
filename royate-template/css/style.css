@@ -603,11 +603,11 @@ select {
     .post .post-body.has-border p {
       margin-bottom: 19px; }
   .post .post-body.bg-1 {
-    background: url("templates/royate-template/images/post-body-bg-1.png") right bottom no-repeat; }
+    background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/post-body-bg-1.png") right bottom no-repeat; }
   .post .post-body.bg-2 {
-    background: url("templates/royate-template/images/post-body-bg-2.png") right bottom no-repeat; }
+    background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/post-body-bg-2.png") right bottom no-repeat; }
   .post .post-body.bg-3 {
-    background: url("templates/royate-template/images/post-body-bg-3.png") right bottom no-repeat; }
+    background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/post-body-bg-3.png") right bottom no-repeat; }
   .post .post-body.fixed {
     padding-top: 0;
     transform: translateY(-19px);
@@ -1166,7 +1166,7 @@ select {
     margin-right: 28px; }
 
 #modalSearch {
-  background: url("templates/royate-template/images/modal-search-bg.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/modal-search-bg.jpg") center center;
   background-size: cover;
   -webkit-transition: opacity .15s linear;
   -moz-transition: opacity .15s linear;
@@ -1491,7 +1491,7 @@ body.center {
   justify-content: center; }
 
 .page-bg {
-  background: url("templates/royate-template/images/full-page-bg.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/full-page-bg.jpg") center center;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -1994,12 +1994,12 @@ body.center {
   line-height: 2; }
 
 .our-menu {
-  background: url("templates/royate-template/images/our-menu-bg-1.png") left top no-repeat, url("templates/royate-template/images/our-menu-bg-2.jpg") right bottom no-repeat, url("templates/royate-template/images/our-menu-bg-3.jpg");
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-1.png") left top no-repeat, url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-2.jpg") right bottom no-repeat, url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-3.jpg");
   background-size: auto, auto, cover; }
   .our-menu.bg-none {
     background: none; }
   .our-menu.bg-4 {
-    background: url("templates/royate-template/images/our-menu-bg-4.jpg");
+    background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-4.jpg");
     background-size: cover; }
 
 .our-menu-full {
@@ -2105,7 +2105,7 @@ body.center {
   padding: 0 192px; }
 
 .menu-wrapper {
-  background: url("templates/royate-template/images/menu-isotope-bg.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/menu-isotope-bg.jpg") center center;
   background-attachment: fixed;
   padding: 20px; }
   .menu-wrapper .inner {
@@ -2349,7 +2349,7 @@ body.center {
     font-size: 18px; }
 
 .our-service {
-  background: url("templates/royate-template/images/our-service-bg.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-service-bg.jpg") center center;
   background-size: cover; }
 
 .our-service-col {
@@ -2516,7 +2516,7 @@ body.center {
       color: #333; }
 
 .booking .image-holder {
-  background: url("templates/royate-template/images/book-a-table.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/book-a-table.jpg") center center;
   background-size: cover;
   height: 100%; }
   .booking .image-holder img {
@@ -2611,7 +2611,7 @@ body.center {
 
 .trait .image-holder {
   height: 100%;
-  background: url("templates/royate-template/images/trait.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/trait.jpg") center center;
   background-size: cover; }
   .trait .image-holder img {
     display: none; }
@@ -2653,14 +2653,14 @@ body.center {
 
 .our-story .image-bg {
   height: 100%;
-  background: url("templates/royate-template/images/our-story-2.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-story-2.jpg") center center;
   background-size: cover; }
   .our-story .image-bg img {
     display: none; }
 
 .our-story .image-holder {
   height: 100%;
-  background: url("templates/royate-template/images/our-story.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-story.jpg") center center;
   background-size: cover; }
   .our-story .image-holder img {
     display: none; }
@@ -2915,7 +2915,7 @@ body.center {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.52); }
 
 .opening-time {
-  background: url("templates/royate-template/images/opening-time-bg.jpg") no-repeat center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/opening-time-bg.jpg") no-repeat center center;
   background-size: cover;
   padding: 65px 15px;
   text-align: center; }
@@ -2970,7 +2970,7 @@ body.center {
   position: relative;
   text-align: center;
   padding: 20px;
-  background: url("templates/royate-template/images/coffee-bg.png") no-repeat right -132px bottom -7px, #956f32;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/coffee-bg.png") no-repeat right -132px bottom -7px, #956f32;
   height: 100%;
   color: #fff; }
   .opening-hours:before {
@@ -3320,7 +3320,7 @@ body.center {
 
 .wish {
   height: 668px;
-  background: url("templates/royate-template/images/wish-bg.jpg") center center no-repeat;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/wish-bg.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   text-align: center; }
@@ -3685,7 +3685,7 @@ body.center {
 
 .full-col {
   height: 100%;
-  background: url("templates/royate-template/images/full-col-bg.jpg") center center no-repeat;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/full-col-bg.jpg") center center no-repeat;
   background-size: cover;
   -webkit-display: flex;
   -moz-display: flex;
@@ -4964,7 +4964,7 @@ footer {
 
 .ft-image {
   height: 100%;
-  background: url("templates/royate-template/images/footer-image.jpg") center center;
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/footer-image.jpg") center center;
   background-size: cover; }
   .ft-image img {
     display: none; }
@@ -5043,7 +5043,7 @@ footer {
       z-index: 9; }
 
 .testimonials {
-  background: url("templates/royate-template/images/testimonials-bg.jpg");
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/testimonials-bg.jpg");
   background-size: cover; }
   .testimonials .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 46px; }
@@ -7065,7 +7065,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   padding: 15px 20px; }
 .checkout-page .woocommerce-checkout select.form-control:not([size]):not([multiple]) {
   height: 42px;
-  background: url("templates/royate-template/images/select-down-icon.png") right 19px center no-repeat; }
+  background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/select-down-icon.png") right 19px center no-repeat; }
 .checkout-page .woocommerce-checkout .woocommerce-account-fields {
   margin-bottom: 41px; }
 .checkout-page .woocommerce-checkout .woocommerce-form__label {
@@ -7246,7 +7246,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     padding-left: 15px; }
 
   .our-menu {
-    background: url("templates/royate-template/images/our-menu-bg-1.png") left top no-repeat, url("templates/royate-template/images/our-menu-bg-3.jpg");
+    background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-1.png") left top no-repeat, url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-3.jpg");
     background-size: auto, cover; }
 
   .our-menu-wrapper {
@@ -8072,7 +8072,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
       .cupcake-history .video img {
         display: block; }
     .cupcake-history .content {
-      background: url("templates/royate-template/images/cupcake-history-bg.jpg") center no-repeat;
+      background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/cupcake-history-bg.jpg") center no-repeat;
       background-size: cover;
       padding: 70px 45px 35px;
       height: auto; }
@@ -8780,7 +8780,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
       margin-bottom: 0; }
 
   .our-menu {
-    background: url("templates/royate-template/images/our-menu-bg-3.jpg");
+    background: url("https://s3.us-east-2.amazonaws.com/dailykit.org/themes/royate/images/our-menu-bg-3.jpg");
     background-size: cover; }
 
   .our-menu-col {
